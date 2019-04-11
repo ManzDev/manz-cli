@@ -8,6 +8,10 @@
   "keywords": [],
   "author": "Manz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManzDev/manz-cli.git"
+  },
   "bin": {
     "manz-cli": "./index.js"
   },
