@@ -14,5 +14,6 @@ npm install -g manz-cli
 
 ```bash
 mkdir new-project
+cd new-project
 manz-cli
 ```
