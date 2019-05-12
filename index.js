@@ -321,9 +321,7 @@ inquirer.prompt([
   /* NPM Install */
 
   option = choices.npminstall.indexOf(answers.npminstall);
-
-  if (option == 0)
-    npminstall = '--package-lock-only';
+  npminstall = (option == 0 ? '--package-lock-only' : '');
 
   const oraOptions = {
     color: 'yellow',

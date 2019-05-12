@@ -1,6 +1,6 @@
 {
   "name": "manz-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple cli command for create new projects and organize structure",
   "main": "index.js",
   "scripts": {
